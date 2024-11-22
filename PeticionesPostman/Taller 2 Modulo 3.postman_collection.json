@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "860140ec-9f8d-4404-81b5-bee84c8c2971",
+		"name": "Taller 2 Modulo 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21639549"
+	},
+	"item": [
+		{
+			"name": "Punto1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://dog.ceo/api/breed/mountain/bernese/images/random"
+			},
+			"response": []
+		},
+		{
+			"name": "Punto2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://pokeapi.co/api/v2/nature/calm"
+			},
+			"response": []
+		},
+		{
+			"name": "Punto3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rickandmortyapi.com/api/location/?name=dorian",
+					"protocol": "https",
+					"host": [
+						"rickandmortyapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "dorian"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto5Huron",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/animal/huron"
+			},
+			"response": []
+		}
+	]
+}
