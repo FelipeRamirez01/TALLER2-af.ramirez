@@ -1,5 +1,4 @@
 from db import create_app
-from fastapi import FastAPI
 
 
 app = create_app()
